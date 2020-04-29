@@ -1,0 +1,150 @@
+body{
+  font-family: 'Poppins';
+}
+
+a{
+  color: white;
+  display: inline-block;
+}
+a:hover{
+  color:white;
+}
+
+#header{
+  background-color: #effbfe;
+  background-image: url("../images/bg-hero-desktop.svg");
+  margin-bottom: 5%;
+}
+.navbar{
+  padding: 1% 12%;
+}
+.logoHeader{
+  float: left;
+  width: 150px;
+}
+.btnShadow{
+  box-shadow: 2px 2px 20px 0px hsl(208, 11%, 55%);
+}
+.btnTry{
+  border-radius: 30px;
+  font-size: 0.7rem;
+  width: 150px;
+  font-weight: 600;
+}
+
+.illustrationMockups{
+  width: 90%;
+}
+
+.headerBody{
+  margin: 5% 5%;
+}
+
+.headerText{
+margin: 5%;
+}
+.headerTitle{
+  font-weight: 600;
+}
+.btnStart{
+  padding: 2% 10%;
+  background-color: #f357c0;
+  border-radius: 30px;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+}
+
+
+.block{
+  margin: 2% auto;
+  padding: 3% 2%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 5px 10px 5px hsl(208, 11%, 55%);
+}
+
+.block h3{
+  padding: 10% 6%;
+  font-weight: 600;
+}
+.blockText{
+  padding: 0 6%;
+  color: hsl(208, 11%, 55%);
+}
+.block img{
+  width: 400px;
+}
+
+.blockGrow img{
+
+  margin-left: 5%;
+}
+.blockFlow img{
+  float: left;
+  margin-right: 5%;
+}
+.blockUser img{
+  float:right;
+  margin-left: 5%;
+}
+
+#cta{
+ position: relative;
+ top: 120px;
+}
+.blockCta{
+  background-color: white;
+  margin: 2% 20%;
+  height: 250px;
+}
+.ctaText{
+  text-align: center;
+  padding: 1%;
+  font-weight: 600;
+}
+.btnCta{
+  padding: 0.5% 10%;
+  background-color: #f357c0;
+  border-radius: 50px;
+  color: white;
+  font-size: 0.9rem;
+}
+#footer{
+  background-color: black;
+  color:white;
+  padding: 25% 2% 5%;
+}
+ .logoHuddleFooter{
+   fill: white;
+   padding-bottom: 5%;
+ }
+.footerText{
+  margin: 0 auto 5%;
+  padding-left: 10%;
+
+}
+
+.logoRs{
+  margin: 0 10%;
+  padding: 2%;
+}
+
+.logoFooter{
+  float: left;
+}
+
+.copyright{
+  font-size: 0.7rem;
+  padding-top: 5%;
+}
+
+@media (max-width:800px){
+  .block img{
+    width: 300px;
+  }
+
+  #footer{
+    padding: 35% 2% 5%;
+  }
+}

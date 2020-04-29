@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/507fb1a438.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="header">
+    <nav class="navbar  justify-content-between">
+      <img src="images/logo.svg" alt="logo" class="logoHeader">
+      <button type="button" name="button" class="btn btn-light btn-lg btnTry btnShadow">Try It Free</button>
+    </nav>
+    <div class="container ">
+      <div class="row headerBody">
+        <div class="col-lg-6">
+          <p class="headerText">
+          <h1 class="headerTitle">Build The Community Your Fans Will Love</h1>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.</p>
+
+          <button type="button" name="button" class="btn btn-lg btn-light btnStart btnShadow">Get Started For Free</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/illustration-mockups.svg" alt="illustration-mockups" class="illustrationMockups">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="cards">
+    <div class="container">
+      <div class="row-lg-1">
+        <div class="col block blockGrow">
+          <div class="row">
+            <div class="col">
+              <h3 class="">Grow Together</h3>
+              <p class="blockText">
+
+                Generate meaningful discussions with your audience and build a strong, loyal community.
+                Think of the insightful conversations you miss out on with a feedback form.
+              </p>
+            </div>
+            <div class="col">
+              <img src="images/illustration-grow-together.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col block blockFlow">
+          <div class="row">
+            <div class="col">
+              <img src="images/illustration-flowing-conversation.svg" alt="">
+            </div>
+            <div class="col">
+              <h3 class="">Flowing Conversations</h3>
+              <p class="blockText">
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads
+                have just-in-time loading for a more natural flow.</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col block blockUser">
+          <div class="row">
+            <div class="col">
+              <h3 class="">Your Users</h3>
+              <p class="blockText">
+
+                It takes no time at all to integrate Huddle with your app's authentication solution.
+                This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+            <div class="col">
+              <img src="images/illustration-your-users.svg" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col block blockCta d-flex justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="ctaText">Ready To Build Your Community?</h2>
+            </div>
+
+
+            <button type="button" name="button" class="btn btn-lg btnCta btnShadow">Get Started For Free</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="footer">
+    <img src="images/logo-white.svg" alt="logo" class="logoHuddleFooter">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 contact">
+          <div class="row-lg-2">
+            <div class="col">
+              <i class="fas fa-map-marker-alt logoFooter"></i>
+              <div class="container">
+                <p class="footerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua</p>
+              </div>
+
+
+            </div>
+            <div class="col">
+              <i class="fas fa-phone-alt logoFooter"></i>
+              <div class="container">
+                <p class="footerText">+1-543-123-4567</p>
+              </div>
+
+            </div>
+            <div class="col">
+              <i class="fas fa-envelope-open-text logoFooter"></i>
+              <div class="container">
+                <p class="footerText">example@huddle.com</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 secondCol">
+          <div class="row-lg-1">
+            <div class="col">
+              <a class="footerText" href="#">About Us</a>
+            </div>
+            <div class="col">
+              <a class="footerText" href="#">What We Do</a>
+            </div>
+            <div class="col">
+              <a class="footerText" href="#">FAQ</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 thirdCol">
+          <div class="row-lg-1">
+            <div class="col">
+              <a class="footerText" href="#">Career</a>
+            </div>
+            <div class="col">
+              <a class="footerText" href="#">Blog</a>
+            </div>
+            <div class="col">
+              <a class="footerText" href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col rsCol">
+          <i class="fab fa-twitter logoRs"></i><i class="fab fa-facebook-f logoRs"></i><i class="fab fa-instagram logoRs"></i>
+        </div>
+      </div>
+    </div>
+
+<div class="row justify-content-end">
+  <div class="col-lg-4">
+    <p class="copyright"> &copy; Copyright 2018 Huddle. All rights reserved.</p>
+
+  </div>
+</div>
+  </section>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
